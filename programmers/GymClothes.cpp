@@ -19,19 +19,15 @@ int networkflow(int src, int sink, vector<vector<int> >& capa)
         {
             int here = q.front(); q.pop();
             for(int there = 0; there < V; there++)
-            {
                 if(parent[there] == -1 && capa[here][there] - flow[here][there]>0)
                 {
                     q.push(there);
                     parent[there] = here;
                 }
-            }
         }
         if(parent[sink] == -1) break;
         for(int p = sink; p != src; p = parent[p])
-        {
             flow[parent[p]][p] += 1;
-        }
         ret += 1;
     }
     return ret;
@@ -101,7 +97,4 @@ int main()
     vector<int> aaa = {1, 2, 3};
     vector<int> bbb = {2, 3, 4};
     cout<<solution(5, aaa, bbb)<<"\n";
-
-//5번 : 5 [2, 3, 4] [1, 2, 3] 4
-//12번 : 5 [1, 2, 3] [2, 3, 4] 4
 }
