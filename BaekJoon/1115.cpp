@@ -3,12 +3,12 @@
 
 using namespace std;
 
-
 void dfs(int here, vector<int>& a, vector<bool>& visited) {
     if(visited[here]) return;
     visited[here] = true;
     dfs(a[here], a, visited);
 }
+
 void dfsAll(vector<int>& a) {
     int count = 0;
     vector<bool> visited(a.size(), false);
