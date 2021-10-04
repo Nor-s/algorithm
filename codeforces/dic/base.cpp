@@ -3,6 +3,9 @@
 #include <algorithm>
 #include <cstring>
 #include <string>
+#define COUT(a) cout << a << "\n"
+#define CCOUT(a, b) cout << a << b << "\n"
+#define CCCOUT(a, b, c) cout << a << b << c << "\n"
 
 using namespace std;
 
@@ -14,7 +17,7 @@ int main()
 
     int T;
     cin >> T;
-    while (T)
+    while (T--)
     {
-        }
+    }
 }
