@@ -65,6 +65,7 @@ int main()
     while (t--)
     {
         cin >> n >> m >> k;
+        board.clear();
         board.resize(n, vector<char>(m));
         painted.resize(0);
         chck.clear();
