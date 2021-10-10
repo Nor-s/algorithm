@@ -3,9 +3,11 @@
 #include <algorithm>
 #include <cstring>
 #include <string>
-#define COUT(a) cout << a << "\n"
-#define CCOUT(a, b) cout << a << b << "\n"
-#define CCCOUT(a, b, c) cout << a << b << c << "\n"
+#define cout1(a) cout << a
+#define cout2(a, b) cout << a << b
+#define cout3(a, b, c) cout << a << b << c
+#define cout4(a, b, c, d) cout << a << b << c << d
+#define cout5(a, b, c, d, e) cout << a << b << c << d << e
 
 using namespace std;
 
