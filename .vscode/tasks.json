@@ -1,27 +1,27 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe 활성 파일 빌드",
-            "command": "C:\\MinGW\\bin\\g++.exe",
+            "label": "C/C++: clang++ build active file",
+            "command": "/usr/bin/clang++",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/a.out",
+                "-std=c++17"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${fileDirname}"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "problemMatcher": ["$gcc"],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "디버거에서 생성된 작업입니다."
+            "detail": "compiler: /usr/bin/clang++"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }

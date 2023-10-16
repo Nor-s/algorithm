@@ -11,14 +11,6 @@
 #include <queue>
 #include <deque>
 
-#define cout1(a) cout << a
-#define cout2(a, b) cout << a << b
-#define cout3(a, b, c) cout << a << b << c
-#define cout4(a, b, c, d) cout << a << b << c << d
-#define cout5(a, b, c, d, e) cout << a << b << c << d << e
-#define coutvi(a, b) copy(a, b, ostream_iterator<int>(cout, " "))
-#define coutvc(a, b) copy(a, b, ostream_iterator<char>(cout, " "))
-
 using namespace std;
 int dx[4] = {1, -1, 0, 0};
 int dy[4] = { 0, 0, 1, -1};

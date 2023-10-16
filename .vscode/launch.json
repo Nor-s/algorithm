@@ -5,25 +5,615 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++.exe - 활성 파일 빌드 및 디버그",
-            "type": "cppdbg",
+            "type": "java",
+            "name": "_10971",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "mainClass": "_10971",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _7465",
+            "request": "launch",
+            "mainClass": "_7465",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3289",
+            "request": "launch",
+            "mainClass": "_3289",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1759",
+            "request": "launch",
+            "mainClass": "_1759",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_M",
+            "request": "launch",
+            "mainClass": "Solution_M",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_MAIN",
+            "request": "launch",
+            "mainClass": "Solution_MAIN",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch __1260",
+            "request": "launch",
+            "mainClass": "__1260",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _13913",
+            "request": "launch",
+            "mainClass": "_13913",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1873",
+            "request": "launch",
+            "mainClass": "_1873",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_5644",
+            "request": "launch",
+            "mainClass": "Solution_5644",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _5644",
+            "request": "launch",
+            "mainClass": "_5644",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1247",
+            "request": "launch",
+            "mainClass": "_1247",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1992",
+            "request": "launch",
+            "mainClass": "_1992",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10026",
+            "request": "launch",
+            "mainClass": "_10026",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3109",
+            "request": "launch",
+            "mainClass": "_3109",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _6987",
+            "request": "launch",
+            "mainClass": "_6987",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1953",
+            "request": "launch",
+            "mainClass": "_1953",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1074",
+            "request": "launch",
+            "mainClass": "_1074",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2805",
+            "request": "launch",
+            "mainClass": "_2805",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3040",
+            "request": "launch",
+            "mainClass": "_3040",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_3304",
+            "request": "launch",
+            "mainClass": "Solution_3304",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch sol_3304",
+            "request": "launch",
+            "mainClass": "sol_3304",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3304",
+            "request": "launch",
+            "mainClass": "_3304",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _15686",
+            "request": "launch",
+            "mainClass": "_15686",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1080",
+            "request": "launch",
+            "mainClass": "_1080",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2839",
+            "request": "launch",
+            "mainClass": "_2839",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _16435",
+            "request": "launch",
+            "mainClass": "_16435",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2798",
+            "request": "launch",
+            "mainClass": "_2798",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _17406",
+            "request": "launch",
+            "mainClass": "_17406",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _5216",
+            "request": "launch",
+            "mainClass": "_5216",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_6808",
+            "request": "launch",
+            "mainClass": "Solution_6808",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _6808",
+            "request": "launch",
+            "mainClass": "_6808",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3000",
+            "request": "launch",
+            "mainClass": "_3000",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11286",
+            "request": "launch",
+            "mainClass": "_11286",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _16935",
+            "request": "launch",
+            "mainClass": "_16935",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_2930",
+            "request": "launch",
+            "mainClass": "Solution_2930",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9229",
+            "request": "launch",
+            "mainClass": "_9229",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _3282",
+            "request": "launch",
+            "mainClass": "_3282",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main_16926",
+            "request": "launch",
+            "mainClass": "Main_16926",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _16926",
+            "request": "launch",
+            "mainClass": "_16926",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1233",
+            "request": "launch",
+            "mainClass": "_1233",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1158",
+            "request": "launch",
+            "mainClass": "_1158",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2493",
+            "request": "launch",
+            "mainClass": "_2493",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2164",
+            "request": "launch",
+            "mainClass": "_2164",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mainssdsdsd",
+            "request": "launch",
+            "mainClass": "Mainssdsdsd",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main_1062_신관우",
+            "request": "launch",
+            "mainClass": "Main_1062_신관우",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1062",
+            "request": "launch",
+            "mainClass": "_1062",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1218",
+            "request": "launch",
+            "mainClass": "_1218",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _7512aa",
+            "request": "launch",
+            "mainClass": "_7512aa",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _7512",
+            "request": "launch",
+            "mainClass": "_7512",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2001",
+            "request": "launch",
+            "mainClass": "_2001",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch __12891",
+            "request": "launch",
+            "mainClass": "__12891",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2023",
+            "request": "launch",
+            "mainClass": "_2023",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _12891",
+            "request": "launch",
+            "mainClass": "_12891",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2961aasds",
+            "request": "launch",
+            "mainClass": "_2961aasds",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2961",
+            "request": "launch",
+            "mainClass": "_2961",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1941",
+            "request": "launch",
+            "mainClass": "_1941",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1954",
+            "request": "launch",
+            "mainClass": "_1954",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main2123423",
+            "request": "launch",
+            "mainClass": "Main2123423",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11660",
+            "request": "launch",
+            "mainClass": "_11660",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11689",
+            "request": "launch",
+            "mainClass": "_11689",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch _4012",
+            "request": "launch",
+            "mainClass": "_4012",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_08_11_14",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_08_11_14",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_16_29",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_16_29",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_14_27",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_14_27",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_14_36",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_14_36",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_11_24ee",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_11_24ee",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_11_24",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_11_24",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_07_11_25",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_07_11_25",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutionsdsdsdsddddd",
+            "request": "launch",
+            "mainClass": "Solutionsdsdsdsddddd",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutionsdsdsds",
+            "request": "launch",
+            "mainClass": "Solutionsdsdsds",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_06_14_39",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_06_14_39",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_06_14_091",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_06_14_091",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_06_11_5ass",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_06_11_5ass",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_06_11_53e",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_06_11_53e",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_02_06_11_53",
+            "request": "launch",
+            "mainClass": "Sol_2023_02_06_11_53",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1288",
+            "request": "launch",
+            "mainClass": "Solution1288",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_01_20_08_38",
+            "request": "launch",
+            "mainClass": "Sol_2023_01_20_08_38",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_01_19_14_18",
+            "request": "launch",
+            "mainClass": "Sol_2023_01_19_14_18",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_01_18_08_35",
+            "request": "launch",
+            "mainClass": "Sol_2023_01_18_08_35",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sol_2023_01_17_09_27",
+            "request": "launch",
+            "mainClass": "Sol_2023_01_17_09_27",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutio222n",
+            "request": "launch",
+            "mainClass": "Solutio222n",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutionad",
+            "request": "launch",
+            "mainClass": "Solutionad",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solutiona",
+            "request": "launch",
+            "mainClass": "Solutiona",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Algorithm_6d2d5a34"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${fileDirname}/a.out",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "gdb에 자동 서식 지정 사용",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++.exe 활성 파일 빌드"
+            "preLaunchTask": "C/C++: clang++ build active file"
         }
     ]
 }

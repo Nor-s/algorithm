@@ -1,5 +1,11 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include <map>
+#include <vector>
+#include <tuple>
+#include <utility>
+#include <queue>
+#include <cstring>
+#include <algorithm>
 using namespace std;
 
 int n, m;
@@ -32,7 +38,7 @@ int bfs(tuple<int, int, int> hh)
         {
             int yyy = yy + dy[i];
             int xxx = xx + dx[i];
-            if (yyy >= n || xxx >= n || yyy < 0 || xxx < 0 || visited[yyy][xxx] || board[yyy][xxx] == 1)
+            if (yyy >= n || xxx >= n || yyy < 0 || xxx < 0 || visited[yyy][xxx])
             {
                 continue;
             }
@@ -50,39 +56,28 @@ int bfs(tuple<int, int, int> hh)
     return -1;
 }
 
-int solve()
+int dp(int idx, int select)
 {
-    int answer = INT32_MAX;
-    dist.resize(home.size());
-    for (int i = 0; i < home.size(); i++)
+    if (chick.size() - select <= m)
     {
-        dist[i] = bfs(home[i]);
-    }
-    if (m < chick.size())
-    {
-        int sssum = accumulate(dist.begin(), dist.end(), 0);
-        int sub = chick.size() - m;
-        vector<int> v;
-        for (int i = 0; i < chick.size(); i++)
+        int sum = 0;
+        for (int i = 0; i < home.size(); i++)
         {
-            v.push_back(i);
+            sum += bfs(home[i]);
         }
-
-        do
-        {
-            int sum = 0;
-            for (auto it = v.begin(); it != v.begin() + sub; it++)
-            {
-                sum += bfs(home[*it]);
-                sum += dist[*it];
-            }
-            answer = min(answer, sum + sssum);
-        } while (next_permutation(v.begin(), v.end()));
+        return sum;
     }
-    else
+    if (idx == chick.size())
     {
-        answer = accumulate(dist.begin(), dist.end(), 0);
+        return INT32_MAX;
     }
+    int answer = INT32_MAX;
+
+    board[get<0>(chick[idx])][get<1>(chick[idx])] = 0;
+    answer = min(answer, dp(idx + 1, select + 1));
+    board[get<0>(chick[idx])][get<1>(chick[idx])] = 2;
+
+    answer = min(answer, dp(idx + 1, select));
     return answer;
 }
 
@@ -104,5 +99,5 @@ int main()
             }
         }
     }
-    cout << solve();
+    cout << dp(0, 0);
 }
