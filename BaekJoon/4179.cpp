@@ -6,42 +6,33 @@
 
 using namespace std;
 int R, C;
+queue<tuple<int, int, int, char>> q;
 vector<vector<char>> A;
 
-queue<tuple<int, int, int>> q;
-vector<vector<int>> dist;
 int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
 
-int bfs(int y, int x)
+int bfs()
 {
     while (!q.empty())
     {
-        auto [day, yy, xx] = q.front();
+        auto [time, y, x, what] = q.front();
         q.pop();
         for (int i = 0; i < 4; i++)
         {
-            int yyy = yy + dy[i];
-            int xxx = xx + dx[i];
-            if (yyy < 0 || yyy >= C || xxx < 0 || xxx >= R)
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (what == 'J' && (ny == -1 || ny == C || nx == -1 || nx == R))
             {
-                if (A[yy][xx] == 'J')
-                {
-                    return day + 1;
-                }
-                continue;
+                return time + 1;
             }
-            if (A[yyy][xxx] == '#' || A[yyy][xxx] == 'F')
-            {
+            if (nx < 0 || nx >= R || ny < 0 || ny >= C)
                 continue;
-            }
+            if (A[ny][nx] == '#' || A[ny][nx] == 'F' || A[ny][nx] == what)
+                continue;
 
-            if (dist[yyy][xxx] == 1e9 || (A[yy][xx] == 'F' && A[yyy][xxx] == 'J'))
-            {
-                dist[yyy][xxx] = day + 1;
-                A[yyy][xxx] = A[yy][xx];
-                q.push({dist[yyy][xxx], yyy, xxx});
-            }
+            A[ny][nx] = what;
+            q.push({time + 1, ny, nx, what});
         }
     }
     return -1;
@@ -56,20 +47,27 @@ int main()
 {
     cin >> C >> R;
     A.resize(C, vector<char>(R));
-    dist.resize(C, vector<int>(R, 1e9));
 
+    pair<int, int> J;
     for (int i = 0; i < C; i++)
     {
         for (int j = 0; j < R; j++)
         {
             cin >> A[i][j];
-            if (A[i][j] == 'J' || A[i][j] == 'F')
+            if (A[i][j] == 'F')
             {
-                q.push({0, i, j});
+                q.push({0, i, j, A[i][j]});
+            }
+
+            if (A[i][j] == 'J')
+            {
+                J = {i, j};
             }
         }
     }
-    int answer = bfs(0, 0);
+    q.push({0, J.first, J.second, 'J'});
+
+    int answer = bfs();
     if (answer == -1)
     {
         cout << "IMPOSSIBLE";
